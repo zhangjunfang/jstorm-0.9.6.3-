@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="com.alibaba.jstorm.util.queue.DisruptorTest" time="31.255" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="com.alibaba.jstorm.util.queue.DisruptorTest" time="31.317" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="E:\softTool\Java\jdk1.8.0_25\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\workspace\jstorm-0.9.6.3"/>
+    <property name="user.dir" value="D:\workspace\jstorm-0.9.6.3-"/>
     <property name="java.runtime.version" value="1.8.0_25-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="E:\softTool\Java\jdk1.8.0_25\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="D:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4183733612007925327.tmp"/>
+    <property name="classworlds.conf" value="D:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9118850062966337972.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="E:\softTool\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E://softTool//Java//jdk1.8.0_25//bin/../jre/bin/server;E://softTool//Java//jdk1.8.0_25//bin/../jre/bin;E://softTool//Java//jdk1.8.0_25//bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Go\bin;E:\softTool\Git\bin;;E:\softTool\eclipse-luna;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="E:\softTool\Java\jdk1.8.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="E:\softTool\Java\jdk1.8.0_25\jre\lib\resources.jar;E:\softTool\Java\jdk1.8.0_25\jre\lib\rt.jar;E:\softTool\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;E:\softTool\Java\jdk1.8.0_25\jre\lib\jsse.jar;E:\softTool\Java\jdk1.8.0_25\jre\lib\jce.jar;E:\softTool\Java\jdk1.8.0_25\jre\lib\charsets.jar;E:\softTool\Java\jdk1.8.0_25\jre\lib\jfr.jar;E:\softTool\Java\jdk1.8.0_25\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\workspace\jstorm-0.9.6.3\EMBEDDED"/>
+    <property name="maven.home" value="D:\workspace\jstorm-0.9.6.3-\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,13 +61,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testPull" time="0.005"/>
+  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testPull" time="0.012"/>
+  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testTryConsume" time="0.084"/>
   <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testTake" time="0"/>
-  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testTryConsume" time="0.059"/>
-  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testConsumeBatchWhenAvailable" time="0.038"/>
-  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testBeforeStartConsumer" time="0.047"/>
-  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testSingleProducer" time="0.05"/>
-  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testMultipleConsume" time="0"/>
+  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testSingleProducer" time="0.054"/>
+  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testBeforeStartConsumer" time="0.051"/>
   <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testMessageDisorder" time="31.004"/>
   <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testLaterStartConsumer" time="0.052"/>
+  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testMultipleConsume" time="0.002"/>
+  <testcase classname="com.alibaba.jstorm.util.queue.DisruptorTest" name="testConsumeBatchWhenAvailable" time="0.058"/>
 </testsuite>

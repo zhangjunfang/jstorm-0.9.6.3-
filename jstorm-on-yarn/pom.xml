@@ -29,7 +29,7 @@
 		</repository>
 		<!--repository> <id>hortonworks</id> <url>http://repo.hortonworks.com/content/repositories/releases/</url> 
 			</repository -->
-
+  
 		<!-- Special: following this instruction alternative 3 http://slf4j.org/faq.html#excludingJCL -->
 		<repository>
 			<id>version99</id>
